@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #090e22;
+    color: #fff;
+
+    min-height: 100vh;
+
+}
+
+#calculoInicial {
+  min-width: 400px;
+  min-height: 300px;
+
+  background-color: #1d1e33;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container header {
+    margin: 40px 0 25px;
+}
+
+.entradaDeDados p{
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ccc
+}
+
+.entradaDeDados input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 15px;
+  
+    background: #e6e6e6;
+    border: none;
+  
+    font-size: 12px;
+  }
+
+.botao {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+.botao button {
+    width: 100px;
+    padding: 10px;
+  
+    font-weight: 700;
+    text-transform: uppercase;
+  
+    color: #fff;
+    
+
+    border-radius: 5px;
+    margin: 12px 0 84px;
+    border: none;
+  
+    cursor: pointer;
+    transition: filter 0.2s;
+  
+    font-size: 16px;
+  }
+
+.botaoCalcular {
+    background-color: #f44236;
+}
+
+.botaoLimpar {
+  background-color: gray;
+}
+  
+.botao button:hover {
+    filter: brightness(0.9);    /*torna o botão mais claro ou mais escuro quando o cursor está em cima*/
+  }
